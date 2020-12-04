@@ -1,6 +1,8 @@
 <?php
     session_start();
+    include_once("function/connector.php");
     include_once("function/helper.php");
+    
     $page = isset($_GET['page']) ? $_GET['page'] : false;
     $user_id = isset($_SESSION['user_id']) ? $_SESSION['user_id'] : false;
     $name = isset($_SESSION['name']) ? $_SESSION['name'] : false;

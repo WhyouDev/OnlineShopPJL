@@ -113,3 +113,55 @@ body{
     margin-bottom: 10px;
     font-size: 11px;
 }
+
+#bg-page-profile {
+    overflow: hidden;
+}
+
+#menu-profile {
+    float: left;
+    width: 245px;
+    background: #1e5474;
+}
+
+#menu-profile ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#menu-profile ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+#menu-profile ul li a:hover,
+#menu-profile ul li a.active {
+    
+    background: orange;
+}
+
+#profile-content {
+    float: left;
+    width: 835px;
+    padding: 10px;
+    background: white;
+}
+
+#frame-tambah {
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.tombol-action {
+    background: #1e5474;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 3px;
+    font-size: 9px;
+}
