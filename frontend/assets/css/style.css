@@ -152,7 +152,7 @@ body{
 
 #frame-tambah {
     margin-bottom: 10px;
-    text-align: right;
+    /* text-align: right; */
 }
 
 .tombol-action {

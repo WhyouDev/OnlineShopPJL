@@ -26,13 +26,13 @@
             <td>$row[kategori]</td>
             <td>$row[status]</td>
             <td>
-                <a class='".BASE_URL."index.php?page=my_profile&module&action=form&kategori=kategori_id=$row[kategori_id]>Edit</a>
+                <a href='".BASE_URL."index.php?page=my_profile&module=kategori&action=form&kategori_id=$row[kategori_id]'>Edit</a>
             </td>
         </tr>";
+        $no++;
         }
-
+        
         echo "</table>";
     }
 ?>
 
-          
