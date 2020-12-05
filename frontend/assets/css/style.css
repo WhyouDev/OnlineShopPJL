@@ -152,7 +152,7 @@ body{
 
 #frame-tambah {
     margin-bottom: 10px;
-    /* text-align: right; */
+    text-align: right;
 }
 
 .tombol-action {
@@ -165,3 +165,45 @@ body{
     margin-right: 3px;
     font-size: 9px;
 }
+
+.tombol-action:hover{
+    background:orange;
+}
+
+.table-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-list .row-title{
+    background: #e6e6e6;
+    border-collapse: collapse;
+}
+
+.table-list tr th, 
+.table-list tr td {
+    padding: 10px 7px;
+}
+
+.col-no{
+    width: 20px;
+    text-align: center;
+}
+
+.center{
+    text-align:center;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+#frame-tambah {
+    margin-bottom: 10px;
+    text-align: right;
+}
+

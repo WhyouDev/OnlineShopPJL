@@ -12,26 +12,25 @@
 
         echo "<table class='table-list'>";
 
-        echo "<tr>
-                <th>No</th>
-                <th>Kategori</th>
-                <th>Status</th>
-                <th>Action</th>
+        echo "<tr class='row-title'>
+                <th class='col-no'>No</th>
+                <th class='left'>Kategori</th>
+                <th class='right'>Status</th>
+                <th class='center'>Action</th>
             </tr>";
 
         $no=1;
         while($row=mysqli_fetch_assoc($queryKategori)){
             echo "<tr>
-            <td>$no</td>
-            <td>$row[kategori]</td>
-            <td>$row[status]</td>
-            <td>
-                <a href='".BASE_URL."index.php?page=my_profile&module=kategori&action=form&kategori_id=$row[kategori_id]'>Edit</a>
+            <td class='col-no'>$no</td>
+            <td class='left'>$row[kategori]</td>
+            <td class='right'>$row[status]</td>
+            <td class='center'>
+                <a class='tombol-action' href='".BASE_URL."index.php?page=my_profile&module=kategori&action=form&kategori_id=$row[kategori_id]'>Edit</a>
             </td>
         </tr>";
         $no++;
         }
-        
         echo "</table>";
     }
 ?>
