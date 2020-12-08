@@ -19,8 +19,6 @@
 		$update_gambar = ", gambar='$nama_file'";
 	}
     
-    
-    
     if($button == "Add"){
 		mysqli_query($connector, "INSERT INTO barang (nama_barang, kategori_id, spesifikasi, gambar, harga, stok, status) 
 											  VALUES ('$nama_barang', '$kategori_id', '$spesifikasi', '$nama_file', '$harga', '$stok', '$status')");
