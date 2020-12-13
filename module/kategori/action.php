@@ -13,7 +13,7 @@
             $kategori_id = $_GET['kategori_id'];
             
             mysqli_query($connector, "UPDATE kategori SET kategori  ='$kategori',
-                                                          status    ='$status' WHERE kategori_id='$kategori_id'");
+                                                          status    ='$status' WHERE kategori_id ='$kategori_id'");
         }
         
         header("location:" .BASE_URL."index.php?page=my_profile&module=kategori&action=list");
