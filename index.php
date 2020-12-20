@@ -10,7 +10,6 @@
     $name = isset($_SESSION['name']) ? $_SESSION['name'] : false;
     $level = isset($_SESSION['level']) ? $_SESSION['level'] : false;
 ?>
- 
 
  <!DOCTYPE html>
  <html lang="en">
@@ -20,7 +19,6 @@
      <title>Pinunjul Store | Kebutuhan Sembako</title>
      <link rel="stylesheet" href="<?php echo BASE_URL. "/frontend/assets/css/style.css"; ?>" type="text/css" />
  </head>
- 
  <body>
    
     <div id="container">
@@ -28,7 +26,6 @@
             <a href="<?php echo BASE_URL. "index.php"; ?>">
             <img src="<?php echo BASE_URL. "/frontend/assets/images/logo/Pinunjul-Logo.png"?>" alt="logo"/>
             </a>
-
             <div id="menu">
                 <div id="user">
                 <?php 
@@ -39,8 +36,7 @@
                         echo "<a href='".BASE_URL."index.php?page=login'>Login</a>
                               <a href='".BASE_URL."index.php?page=register'>Register</a>";
                     }
-                ?>
-                    
+                ?>    
                 </div>
                 <a href="<?php echo BASE_URL. "index.php?page=cart"; ?>" id="button_cart">
                 <img src="<?php echo BASE_URL. "/frontend/assets/images/logo/Shopping_cart_white.png"?>" alt="logo_cart"/>
@@ -64,6 +60,5 @@
             <p>Copyright Pinunjul Store 2020</p>
         </div>
     </div>
-
  </body>
  </html>

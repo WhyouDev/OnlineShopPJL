@@ -213,17 +213,17 @@ body{
     float: left;
 }
 
-#left #menu-kategori ul {
+#menu-kategori ul {
     list-style: none;
     margin: 0px;
     padding: 0px;
 }
 
-#left #menu-kategori ul li {
+#menu-kategori ul li {
     margin-bottom: 5px;
 }
 
-#left #menu-kategori ul li a{
+#menu-kategori ul li a{
     display: block;
     padding: 10px;
     background: white;
@@ -231,14 +231,10 @@ body{
     text-decoration: none;
 }
 
-#left #menu-kategori ul li a:hover{
+#menu-kategori ul li a:hover,
+#menu-kategori ul li a.active{
     background: #e8e8e8; 
 }
-
-/* #menu-kategori ul li a:hover,
-#menu-kategori ul li a.active {
-	background:#e8e8e8;
-} */
 
 #right {
     width: 840px;
