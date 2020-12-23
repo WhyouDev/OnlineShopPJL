@@ -4,7 +4,6 @@
 	
 	$nama_barang 		= "";
 	$kategori_id 		= "";
-	$gambar 			= "";
 	$spesifikasi 		= "";
 	$gambar 			= "";
 	$harga 				= "";
@@ -25,7 +24,7 @@
 		$stok 		 = $row['stok'];
 		$status 	 = $row['status'];
 		$button 	 = "Update";
-		$keterangan_gambar = "(Click select image if you want to replace the image on the side)";
+		$keterangan_gambar = "(Click select image, if you want to replace the image on the side)";
 		$gambar = "<img src='".BASE_URL."/frontend/assets/images/barang/$gambar' style='width: 200px;vertical-align: middle;' />";
 	}
 	
@@ -71,7 +70,7 @@
 	<div class="element-form">
 		<label>Gambar Produk <?php echo $keterangan_gambar; ?></label>
 		<span>
-			<input type="file" name="file" /> <?php echo $gambar; ?>
+			<input type="file" name="file" /><?php echo $gambar; ?>
 		</span>
 	</div>
 	<div class="element-form">

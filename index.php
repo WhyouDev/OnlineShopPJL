@@ -18,6 +18,8 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Pinunjul Store | Kebutuhan Sembako</title>
      <link rel="stylesheet" href="<?php echo BASE_URL. "/frontend/assets/css/style.css"; ?>" type="text/css" />
+     <script src="<?php echo BASE_URL. "/frontend/assets/js/jquery-3.1.1.min.js"; ?>"></script>
+     <script src="<?php echo BASE_URL. "/frontend/assets/js/SlidesJS-3/source/jquery.slides.min.js"; ?>"></script>
  </head>
  <body>
    
